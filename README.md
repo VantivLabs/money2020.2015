@@ -4,11 +4,15 @@ http://www.money2020.com/node/15156
 
 #Overview
 
-We cannot wait to meet everyone and geek out on payment APIs at the Money20/20 Hackathon October 24th and 25th.  We had such a great time participating last year and are eagerly anticipating more of the same great atmosphere this year.  Here are a couple of reviews from last year if you are interested:
+We cannot wait to meet everyone and geek out on payment APIs at the Money20/20 Hackathon October 24th and 25th.  We had such a great time participating last year and are eagerly anticipating more of the same great atmosphere this year.  Here is a review from last year if you are interested:
 
 http://developer.mercurypay.com/blogpost/big-win-money2020-hackathon/
 
-Now let's look forward to the FUTURE!!!  This repo is to provide you a quickstart to integrating to Vantiv APIs.
+Now let's look forward to the FUTURE!!!
+
+http://vantiv.com/developers -- the articles and this github site will provide all of the info you need for a great hackathon experience.
+
+This specific repo is to provide you a quickstart to integrating to Vantiv APIs.
 
 As you can see from the list above we have made our:  Activate, HostedCheckout, REST, and SOAP integrations available for your hacking pleasure.
 
@@ -23,10 +27,6 @@ If you have any questions/comments leading up to the event please contact us at:
 * Web -- http://developer.mercurypay.com/support-2/
 
 #Hackathon Information
-
-##Blog Info
-
-http://vantiv.com/developers -- scroll down to articles
 
 ##Challenge Statement
 

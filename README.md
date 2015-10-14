@@ -16,9 +16,17 @@ REST/SOAP are a transmission mechanism but specifically provide access to our Cr
 
 #Contact
 
-If you have any questions/comments leading up to the event please contact me at dourada at mercurypay dot com.  Or feel free to use the phone number or contact form here:  http://developer.mercurypay.com/support-2/.
+If you have any questions/comments leading up to the event please contact us at:
+
+* Email -- dourada at mercurypay dot com
+* Twitter -- @VantivTech
+* Web -- http://developer.mercurypay.com/support-2/
 
 #Hackathon Information
+
+##Blog Info
+
+http://vantiv.com/developers -- scroll down to articles
 
 ##Challenge Statement
 

@@ -4,7 +4,7 @@ Money20/20
 
 ## Endpoints
 
-https://w1.mercurydev.net/ws/ws.asmx
+https://w1.mercurycert.net/ws/ws.asmx
 
 ## Merchant Info Clear Text
 
@@ -20,7 +20,7 @@ PWD: xyz
 
 ## Using Mercury’s Web Services Libraries
 
-Web Services are Web APIs that can be accessed over a network and/or the internet, and are executed on a remote system hosting the requested services. Mercury’s Web Service development URL is https://w1.mercurydev.net/ws/ws.asmx with the full WSDL accessed at: https://w1.mercurydev.net/ws/ws.asmx?WSDL
+Web Services are Web APIs that can be accessed over a network and/or the internet, and are executed on a remote system hosting the requested services. Mercury’s Web Service development URL is https://w1.mercurycert.net/ws/ws.asmx with the full WSDL accessed at: https://w1.mercurycert.net/ws/ws.asmx?WSDL
 
 Any development environment supporting Web Services can add a reference to that URL and have access to the methods and classes it provides.
 
@@ -80,7 +80,7 @@ Two arguments:  GiftTransaction(trans as string, password as string)
 ### execute this command:
 
 ```
-curl -k -v -X POST -H "Content-Type:text/xml;" -H "SOAPAction:""http://www.mercurypay.com/CreditTransaction""" -d "@soap.txt" -o output.txt https://w1.mercurydev.net/ws/ws.asmx
+curl -k -v -X POST -H "Content-Type:text/xml;" -H "SOAPAction:""http://www.mercurypay.com/CreditTransaction""" -d "@soap.txt" -o output.txt https://w1.mercurycert.net/ws/ws.asmx
 ```
 
 ### Expected result:
@@ -156,7 +156,7 @@ curl -k -v -X POST -H "Content-Type:text/xml;" -H "SOAPAction:""http://www.mercu
 ### execute this command:
 
 ```
-curl -k -v -X POST -H "Content-Type:text/xml;" -H "SOAPAction:""http://www.mercurypay.com/GiftTransaction""" -d "@soap.txt" -o output.txt https://w1.mercurydev.net/ws/ws.asmx
+curl -k -v -X POST -H "Content-Type:text/xml;" -H "SOAPAction:""http://www.mercurypay.com/GiftTransaction""" -d "@soap.txt" -o output.txt https://w1.mercurycert.net/ws/ws.asmx
 ```
 
 ### Expected result:

@@ -29,7 +29,7 @@ Username: existing MerchantID Password: created and stored by Mercury
 
 ## Content-Type
 
-Set Content-Type header value to: ìapplication/jsonî
+Set Content-Type header value to: ‚Äúapplication/json‚Äù
 
 ## POSTS
 
@@ -137,5 +137,51 @@ curl -k -v -X POST -H "Content-Type:application/json" -H "Authorization: Basic M
   "Authorize": "1.00",
   "AcqRefData": "K",
   "ProcessData": "|00|210100700000"
+}
+```
+
+
+## Example ACH Authorize
+
+### Copy the following into a text file named:  ach.txt
+
+```
+{
+    "InvoiceNo":"111020141127",
+    "InvoiceNo":"111020141280",
+    "RoutingNo":"490000018",
+    "AcctNo":"2441234567134567",
+    "SequenceNo":"9999",
+    "AcctType":"Checking",
+    "ACHMethod":"VerificationOnly",
+    "OperatorID":"TEST",
+    "Purchase":"1.50",
+}
+```
+
+### execute this command:
+
+```
+curl -k -v -X POST -H "Content-Type:application/json" -H "Authorization: Basic NjAxMzUyMTExNDp4eXo=" -d "@ach.txt" -o output.txt https://w1.mercurycert.net/paymentsapi/ACH/Authorize
+```
+
+### Expected result:
+
+```
+{
+  "ResponseOrigin": "Processor",
+  "DSIXReturnCode": "000000",
+  "CmdStatus": "Approved",
+  "TextResponse": "Approved",
+  "UserTraceData": "",
+  "MerchantID": "6013521114",
+  "AcctNo": "XXXXXXXXXXXXXX67",
+  "CardType": "ACH",
+  "TranCode": "Authorize",
+  "AuthCode": "272-172",
+  "InvoiceNo": "111020141127",
+  "OperatorID": "TEST",
+  "Purchase": "1.50",
+  "Authorize": "1.50"
 }
 ```

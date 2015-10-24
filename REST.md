@@ -19,6 +19,11 @@ MID: 019588466313922
 
 PWD: xyz
 
+## Merchant Info ACH
+MID: 6013521114
+
+PWD: xyz
+
 Authentication occurs via HTTP Basic Auth using an HTTP authorization header.
 
 Username: existing MerchantID Password: created and stored by Mercury
@@ -144,6 +149,8 @@ curl -k -v -X POST -H "Content-Type:application/json" -H "Authorization: Basic M
 ## Example ACH Authorize
 
 ### Copy the following into a text file named:  ach.txt
+
+The RoutingNo will trigger different responses so if you want something other than approved ask the team and they can provide further information.
 
 ```
 {

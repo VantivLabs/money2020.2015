@@ -24,6 +24,8 @@ MID: 6013521114
 
 PWD: xyz
 
+## Authentication
+
 Authentication occurs via HTTP Basic Auth using an HTTP authorization header.
 
 Username: existing MerchantID Password: created and stored by Mercury

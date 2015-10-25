@@ -1,7 +1,11 @@
-Money20/20
+﻿Money20/20
 =========
 
 # REST API
+
+##Postman URL
+
+https://www.getpostman.com/collections/48bd8a93592acb939b92
 
 ## Endpoint
 

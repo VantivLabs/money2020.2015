@@ -1,4 +1,4 @@
-#Money20/20
+﻿#Money20/20
 
 http://www.money2020.com/node/15156
 
@@ -58,4 +58,7 @@ Or
 
 We use curl to facilitate transaction processing in this repo as it is a simple utility and easily installed (if not installed by default).  But have a look around at our sample code and you will start to see an infinite number of ways to send transactions to the Vantiv platform.
 
-![Analytics](https://ga-beacon.appspot.com/UA-60858025-5/money2020/readme?pixel)
+#Legal Stuff
+
+[Privacy Policy, Copyright Notices, and Terms of Use](https://vantiv.com/privacy-policy)
+

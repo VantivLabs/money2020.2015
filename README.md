@@ -28,7 +28,7 @@ If you have any questions/comments leading up to the event please contact us at:
 
 #Hackathon Information
 
-##Challenge Statement
+##Challenge Statement -- This is for Money2020 2015
 
 We have one goal—to help our customers help their customers enable great experiences at the point of sale—whatever that point of sale—big box retail, small- and medium-sized business, eCommerce or iPOS.  We get collaboration with 3,000 POS ISVs, VARs and us, working to simplify payments innovation to bring exciting products, services and solutions to market.  Hop on the road to creating brilliant new code.  Your creativity and passion.  Our challenge, your task: develop a product that simplifies how people buy, sell or pay via the Vantiv APIs focused on three areas:
 
